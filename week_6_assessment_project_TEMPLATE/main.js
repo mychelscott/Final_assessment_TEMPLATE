@@ -5,7 +5,8 @@ console.log("connected to main.js")
     // Add more categories to the CATEGORY array
     // Test that each works with the fetch request
 const CATEGORY = [
-  "Starter",
+  "Starter", "Beef", "Chicken", "Lamb", "Pasta", 
+  "Pork", "Seafood", "Vegetarian", "Vegan", "Side", "Dessert",
 ]
 
 // select element that will store our category options
