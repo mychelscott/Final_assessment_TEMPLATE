@@ -44,7 +44,13 @@ function getFetch() {
         // 2) add an image to the container UNDER the header
           // ex: "Broccoli & Stilton soup", followed by a picture of
           // broccoli & stilton soup
-        // ... add code here
+        let header = document.createElement ("h2");
+        header.textContent = data.meals [i].name;
+        container.appendChild(header);
+
+        let image = document.createElement("img");
+        image.src = data.meals[i].thumbnail;
+        container.appendChild(image);
       }
 
       return data;
