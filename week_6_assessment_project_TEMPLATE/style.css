@@ -1,11 +1,16 @@
 body {
-
-}
-
-.mealsList {
-
-}
-
-.mealContainer {
-
-}
+    background-color: #df7f7a;
+  }
+  
+  h1,h2 {
+    font-family: 'Kalnia', serif;
+  }
+  
+  .mealsList {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .mealContainer {
+    border-style: 2px solid white;
+  }
